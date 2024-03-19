@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.post {
+  background-color: #f4f8fd;
+  border: 1px solid #ccc;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  
+}
+
+.loading {
+  text-align: center;
+  margin-top: 15px;
+}
+
+  

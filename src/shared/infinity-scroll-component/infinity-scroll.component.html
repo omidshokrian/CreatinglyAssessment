@@ -1,0 +1,8 @@
+<div class="container" #scrollContainer (scroll)="onScroll()">
+  @for (post of allPosts; track post) {
+  <div class="post">
+    {{ post.item }}
+  </div>
+  }
+  <div *ngIf="loading" class="loading">Loading...</div>
+</div>
